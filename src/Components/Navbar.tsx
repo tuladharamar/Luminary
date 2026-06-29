@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import Logo from '../assets/Logo.png'
+// import Logo from '../assets/Logo.png'
 import nav from '../Constant/nav'
 import { Menu, X } from 'lucide-react';
 import DarkMode from './DarkMode';
@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between max-w-7xl mx-auto  ">
           {/* logo */}
           <div className="flex gap-1 items-center">
-            <img src={Logo} alt="" width={100} className="" />
+            {/* <img src={Logo} alt="" width={100} className="" /> */}
             <h1 className="text-xl font-bold dark:text-white">Luminary</h1>
           </div>
           {/* Nav */}
