@@ -1,7 +1,7 @@
 // src/components/Footer.tsx
 import icons from '../Constant/footer';
 import { useState } from 'react';
-import Logo from '../assets/Logo.PNG'
+// import Logo from '../assets/Logo.PNG'
 
 const Footer = () => {
     const [email, setEmail] = useState('');
@@ -25,11 +25,11 @@ const Footer = () => {
                     {/* Brand Column */}
                     <div className="lg:col-span-5 space-y-6">
                         <div className="flex items-center gap-3">
-                            <img 
+                            {/* <img 
                                 src={Logo} 
                                 alt="Luminary" 
                                 className="h-10 w-auto" 
-                            />
+                            /> */}
                             <h1 className="text-4xl font-bold tracking-tighter dark:text-white transition-all duration-300">luminary</h1>
                         </div>
 
