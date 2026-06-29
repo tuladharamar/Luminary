@@ -1,7 +1,3 @@
- 
-
-
-
 import { useState } from 'react';
 import Logo from '../assets/Logo.png'
 import nav from '../Constant/nav'
@@ -26,7 +22,7 @@ const Navbar = () => {
             <ul className='hidden lg:flex items-center '>
               {nav.map(item => (
                 <li key={item.id} className='font-semibold text-gray-500 dark:text-white hover:bg-gray-400/10 px-5 py-3 rounded-md  cursor-pointer relative '>
-                  <Link to={item.page } className=''>
+                  <Link to={item.page} className=''>
                     {item.label}
                   </Link>
                 </li>
@@ -49,14 +45,16 @@ const Navbar = () => {
           <AnimatePresence>
             {mobileMenu && (
               <>
-                <motion.ul className='absolute top-24 left-0  w-full flex flex-col justify-center items-center cursor-pointer dark:bg-black dark:text-white z-1 bg-white h-screen'
+                <motion.ul className='absolute top-24 left-0  w-full flex flex-col justify-center items-center cursor-pointer dark:bg-black dark:text-white z-1000 bg-white h-screen'
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
                   transition={{ duration: 0.2 }}>
                   {nav.map(mobileItem => (
                     <motion.li key={mobileItem.id} onClick={() => setMobileMenu((prev) => !prev)} className='py-8 text-center border-b-2 w-full border-gray-300 '>
-                      {mobileItem.label}
+                      <Link to={mobileItem.page }>
+                        {mobileItem.label}
+                      </Link>
                     </motion.li>
                   ))}
                   <div className='py-5'>
