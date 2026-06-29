@@ -1,8 +1,9 @@
-// Tell TypeScript how to handle imported JPG modules
+ 
+
 
 
 import { useState } from 'react';
-import Logo from '../assets/Logo.PNG'
+import Logo from '../assets/Logo.png'
 import nav from '../Constant/nav'
 import { Menu, X } from 'lucide-react';
 import DarkMode from './DarkMode';
