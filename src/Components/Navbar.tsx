@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
-    <>
+    <header>
       <nav className="p-5 border-b-2 border-gray-300 dark:bg-black transition-all duration-300">
         <div className="flex items-center justify-between max-w-7xl mx-auto  ">
           {/* logo */}
@@ -68,7 +68,7 @@ const Navbar = () => {
           </AnimatePresence>
         </div>
       </nav>
-    </>
+    </header>
   )
 }
 

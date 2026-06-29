@@ -41,7 +41,7 @@ const Home = () => {
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.5 }}>
             {/* Hero Section */}
-            <div className="bg-[#001B3A] dark:bg-black h-[calc(100vh-90px)] py-16 md:py-24 relative overflow-hidden">
+            <section className="bg-[#001B3A] dark:bg-black h-[calc(100vh-90px)] py-16 md:py-24 relative overflow-hidden">
                 {/* Badge */}
                 <div className="absolute top-8 left-1/2 -translate-x-1/2 md:left-1/4 md:translate-x-0 z-10">
                     <span className="inline-flex items-center gap-3 bg-linear-to-r from-[#001B3A] to-[#00316E] w-2xs md:w-80 px-5 py-2.5 rounded-2xl border border-blue-500/40 text-blue-100 font-semibold shadow-lg shadow-blue-900/30 text-sm md:text-base ">
@@ -78,10 +78,10 @@ const Home = () => {
                     <div>SCROLL</div>
                     <div className="h-12 w-px bg-linear-to-b from-gray-400/50 to-transparent mt-2"></div>
                 </div>
-            </div>
+            </section>
 
             {/* Stats Section */}
-            <div className="max-w-7xl mx-auto px-6 py-16 md:py-20 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8">
+            <section className="max-w-7xl mx-auto px-6 py-16 md:py-20 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8">
                 <div className="flex flex-col items-center text-center">
                     <Counter target={350} suffix="+" />
                     <p className="text-gray-500 pt-3">Projects Delivered</p>
@@ -101,10 +101,10 @@ const Home = () => {
                     <Counter target={40} suffix="+" />
                     <p className="text-gray-500 pt-3">Team Members</p>
                 </div>
-            </div>
+            </section>
 
             {/* Why Choose Us */}
-            <div className="bg-gray-100 py-16 md:py-20">
+            <section className="bg-gray-100 py-16 md:py-20">
                 <div className="max-w-7xl mx-auto px-6 text-center">
                     <h1 className="text-4xl md:text-5xl font-extrabold">
                         Why teams choose Luminary
@@ -113,10 +113,10 @@ const Home = () => {
                         We combine strategy, design, and engineering to create outcomes that matter for your business.
                     </p>
                 </div>
-            </div>
+            </section>
 
             {/* Features Grid */}
-            <div className="max-w-7xl mx-auto px-6 py-16 md:py-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <section className="max-w-7xl mx-auto px-6 py-16 md:py-20 grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-gray-100 px-8 py-10 rounded-3xl">
                     <span className="text-blue-500 mb-6 block"><BsGraphUpArrow size={42} /></span>
                     <h1 className="font-bold text-2xl pb-4">Growth-Focused</h1>
@@ -134,10 +134,10 @@ const Home = () => {
                     <h1 className="font-bold text-2xl pb-4">Scalable System</h1>
                     <p>We build for where you are today and where you want to be in five years.</p>
                 </div>
-            </div>
+            </section>
 
             {/* Testimonials */}
-            <div className="bg-gray-100 py-16 md:py-24">
+            <section className="bg-gray-100 py-16 md:py-24">
                 <div className="max-w-7xl mx-auto px-6">
                     <h1 className="text-center text-4xl md:text-5xl font-bold mb-12">
                         What our clients say
@@ -196,10 +196,10 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             {/* CTA Section */}
-            <div className="bg-black py-24 md:py-32">
+            <section className="bg-black py-24 md:py-32">
                 <div className="max-w-4xl mx-auto text-center px-6">
                     <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight">
                         Ready to build something <span className="text-blue-400">remarkable?</span>
@@ -211,7 +211,7 @@ const Home = () => {
                         Start the Conversation <FaArrowRight />
                     </button>
                 </div>
-            </div>
+            </section>
         </motion.main>
     );
 };
