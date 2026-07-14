@@ -4,22 +4,21 @@ import { useEffect, useState } from "react"
 
 const DarkMode = () => {
 
-    const [enabled, setEnabled] = useState(()=>{
-        const storedValue = localStorage.getItem('theme')=== 'dark';
-        return storedValue;
-    })
+   const [enabled, setEnabled] = useState(()=>{
+    const storedValue = localStorage.getItem('theme') === 'dark'
+    return storedValue;
+   })
 
-    useEffect(()=>{
-        const root = document.documentElement;
-
-        if(enabled){
-            root.classList.add('dark');
-            localStorage.setItem('theme', 'dark');
-        }else{
-            root.classList.remove('dark');
-            localStorage.removeItem('theme');
-        }
-    }, [enabled]);
+   useEffect(()=>{
+    const root = document.documentElement;
+    if(enabled){
+        root.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+    }else{
+        root.classList.remove('dark');
+        localStorage.removeItem('theme');
+    }
+   }, [enabled]);
   return (
     <>
         <div  onClick={()=>setEnabled((prev)=>!prev)} className={`w-16 h-6 ${enabled ? "bg-gray-500": "bg-black"} flex  items-center rounded-full transition-colors duration-300 `}>
