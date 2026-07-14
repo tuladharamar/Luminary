@@ -42,17 +42,18 @@ const Contact=()=> {
         'w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200';
 
     return (
-        <motion.div className="pt-16 lg:pt-20"
+        <motion.div className="  dark:bg-black dark:text-white"
         initial={{opacity:0, y:-30}}
         animate={{opacity:1, y:0}}
         exit={{opacity:0, y:30}}
-        transition={{duration:0.5}}>
+        transition={{duration:0.5}}
+        >
             {/* Hero */}
-            <section className="bg-white py-24 lg:py-32 border-b border-gray-100">
+            <section className="bg-[#001B3A] py-24 lg:py-32 border-b border-gray-100 dark:bg-black dark:text-white">
                 <div className="max-w-7xl mx-auto px-6 lg:px-8">
                     <div className="max-w-2xl">
                         <span className="text-blue-600 text-sm font-semibold uppercase tracking-widest">Contact Us</span>
-                        <h1 className="text-5xl lg:text-6xl font-extrabold text-gray-900 mt-4 mb-6 leading-tight">
+                        <h1 className="text-5xl lg:text-6xl font-extrabold  mt-4 mb-6 leading-tight dark:text-white text-white">
                             Let's start a conversation.
                         </h1>
                         <p className="text-gray-500 text-lg leading-relaxed">
@@ -63,7 +64,7 @@ const Contact=()=> {
             </section>
 
             {/* Contact Section */}
-            <section className="bg-gray-50 py-24">
+            <section className="bg-gray-50 py-24 dark:bg-black dark:text-white">
                 <div className="max-w-7xl mx-auto px-6 lg:px-8">
                     <div className="grid lg:grid-cols-5 gap-12">
                         {/* Form */}
@@ -163,9 +164,9 @@ const Contact=()=> {
                         </div>
 
                         {/* Sidebar */}
-                        <div className="lg:col-span-2 space-y-8">
+                        <div className="lg:col-span-2 space-y-8 ">
                             <div>
-                                <h3 className="text-lg font-bold text-gray-900 mb-4">Our offices</h3>
+                                <h3 className="text-lg font-bold text-gray-900 mb-4 dark:text-white">Our offices</h3>
                                 <div className="space-y-6">
                                     {offices.map(({ city, address, phone, email }) => (
                                         <div key={city} className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">

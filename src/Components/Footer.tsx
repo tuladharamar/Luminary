@@ -74,10 +74,10 @@ const Footer = () => {
                     <div className="lg:col-span-2">
                         <h4 className="font-semibold mb-6 dark:text-white/70 text-black">Company</h4>
                         <div className="flex flex-col gap-4 dark:text-white/70 text-black">
-                            <a href="/about" className="hover:text-white transition">About Us</a>
-                            <a href="/work" className="hover:text-white transition">Our Work</a>
-                            <a href="/services" className="hover:text-white transition">Services</a>
-                            <a href="/journal" className="hover:text-white transition">Journal</a>
+                            <a href="/about" className="hover:text-gray-500 transition-all duration-300">About Us</a>
+                            <a href="/work" className="hover:text-gray-500 transition-all duration-300">Our Work</a>
+                            <a href="/services" className="hover:text-gray-500 transition-all duration-300">Services</a>
+                            <a href="/journal" className="hover:text-gray-500 transition-all duration-300">Journal</a>
                         </div>
                     </div>
 
@@ -85,10 +85,10 @@ const Footer = () => {
                     <div className="lg:col-span-2">
                         <h4 className="font-semibold mb-6 dark:text-white/70 text-black">Services</h4>
                         <div className="flex flex-col gap-4 dark:text-white/70 text-black">
-                            <a href="#" className="hover:text-white transition">Brand Strategy</a>
-                            <a href="#" className="hover:text-white transition">Web Design</a>
-                            <a href="#" className="hover:text-white transition">Development</a>
-                            <a href="#" className="hover:text-white transition">Digital Marketing</a>
+                            <a href="#" className="hover:text-gray-500 transition-all duration-300">Brand Strategy</a>
+                            <a href="#" className="hover:text-gray-500 transition-all duration-300">Web Design</a>
+                            <a href="#" className="hover:text-gray-500 transition-all duration-300">Development</a>
+                            <a href="#" className="hover:text-gray-500 transition-all duration-300">Digital Marketing</a>
                         </div>
                     </div>
 
@@ -103,7 +103,7 @@ const Footer = () => {
                                     href={item.url}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="dark:text-white/70 text-black hover:text-white hover:scale-110 transition-all duration-200"
+                                    className="dark:text-white/70 text-black hover:text-gray-500 transition-all duration-300 hover:scale-110 "
                                 >
                                     <item.icon />
                                 </a>
@@ -112,7 +112,7 @@ const Footer = () => {
 
                         <div>
                             <p className="dark:text-white/70 text-black text-sm">Kathmandu, Nepal</p>
-                            <a href="mailto:hello@luminary.com" className="dark:text-white/70 text-black hover:text-white mt-1 block">
+                            <a href="mailto:hello@luminary.com" className="dark:text-white/70 text-black hover:text-gray-500 transition-all duration-300 mt-1 block">
                                 hello@luminary.com
                             </a>
                         </div>

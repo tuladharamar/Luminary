@@ -51,7 +51,7 @@ const Home = () => {
                 </div>
 
                 {/* Hero Content */}
-                <div className="max-w-7xl mx-auto px-6 pt-32 md:pt-20">
+                <div className="max-w-7xl mx-auto px-6 pt-32 md:pt-20 ">
                     <div className="max-w-2xl md:max-w-3xl">
                         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight md:leading-[1.1]">
                             We build digital <span className="text-blue-400">experiences</span> that matter.
@@ -81,8 +81,8 @@ const Home = () => {
             </section>
 
             {/* Stats Section */}
-            <section className="max-w-7xl mx-auto px-6 py-16 md:py-20 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8">
-                <div className="flex flex-col items-center text-center">
+            <section className=" mx-auto px-6 py-16 md:py-20 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8 dark:bg-black dark:text-white">
+                <div className="flex flex-col items-center text-center max-w-7xl">
                     <Counter target={350} suffix="+" />
                     <p className="text-gray-500 pt-3">Projects Delivered</p>
                 </div>
@@ -104,7 +104,7 @@ const Home = () => {
             </section>
 
             {/* Why Choose Us */}
-            <section className="bg-gray-100 py-16 md:py-20">
+            <section className="bg-gray-100 py-16 md:py-20 dark:bg-black dark:text-white">
                 <div className="max-w-7xl mx-auto px-6 text-center">
                     <h1 className="text-4xl md:text-5xl font-extrabold">
                         Why teams choose Luminary
@@ -116,8 +116,9 @@ const Home = () => {
             </section>
 
             {/* Features Grid */}
-            <section className="max-w-7xl mx-auto px-6 py-16 md:py-20 grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-gray-100 px-8 py-10 rounded-3xl">
+            <section className=" px-6 py-16 md:py-20  dark:bg-black">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                <div className="bg-gray-100 px-8 py-10 rounded-3xl ">
                     <span className="text-blue-500 mb-6 block"><BsGraphUpArrow size={42} /></span>
                     <h1 className="font-bold text-2xl pb-4">Growth-Focused</h1>
                     <p>Every decision we make is rooted in measurable outcomes and sustainable growth.</p>
@@ -134,10 +135,11 @@ const Home = () => {
                     <h1 className="font-bold text-2xl pb-4">Scalable System</h1>
                     <p>We build for where you are today and where you want to be in five years.</p>
                 </div>
+                </div>
             </section>
 
             {/* Testimonials */}
-            <section className="bg-gray-100 py-16 md:py-24">
+            <section className="bg-gray-100 py-16 md:py-24 dark:bg-black dark:text-white">
                 <div className="max-w-7xl mx-auto px-6">
                     <h1 className="text-center text-4xl md:text-5xl font-bold mb-12">
                         What our clients say

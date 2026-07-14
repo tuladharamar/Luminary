@@ -23,7 +23,7 @@ const Work = () => {
             transition={{ duration: 0.5 }}
         >
             {/* title */}
-            <section className='bg-black text-white'>
+            <section className='bg-[#001B3A] text-white'>
                 <div className='max-w-7xl mx-auto px-5 py-20 '>
                     <span className='text-blue-500 text-md '>OUR WORK</span>
                     <h1 className='text-5xl py-5 md:py-10 font-extrabold'>Projects we're proud of.</h1>

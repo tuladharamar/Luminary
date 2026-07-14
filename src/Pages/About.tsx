@@ -12,7 +12,7 @@ const About = () => {
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.5 }}
             className="">
-            <section className="bg-black h-100 relative flex items-center py-16 md:py-24 overflow-hidden">
+            <section className="bg-[#001B3A] h-100 relative flex items-center py-16 md:py-24 overflow-hidden">
                 <div className="w-full max-w-7xl mx-auto px-5 sm:px-6 md:px-12 lg:px-16">
                     <div className="text-white max-w-xl md:max-w-2xl">
 
