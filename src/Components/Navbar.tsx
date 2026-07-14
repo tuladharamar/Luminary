@@ -15,7 +15,11 @@ const Navbar = () => {
           {/* logo */}
           <div className="flex gap-1 items-center">
             {/* <img src={Logo} alt="" width={100} className="" /> */}
-            <h1 className="text-xl font-bold dark:text-white">Luminary</h1>
+            <h1 className="text-xl font-bold dark:text-white">
+              <Link to='/'>
+                Luminary
+              </Link>
+            </h1>
           </div>
           {/* Nav */}
           <div className='flex items-center'>
@@ -52,7 +56,7 @@ const Navbar = () => {
                   transition={{ duration: 0.2 }}>
                   {nav.map(mobileItem => (
                     <motion.li key={mobileItem.id} onClick={() => setMobileMenu((prev) => !prev)} className='py-8 text-center border-b-2 w-full border-gray-300 '>
-                      <Link to={mobileItem.page }>
+                      <Link to={mobileItem.page}>
                         {mobileItem.label}
                       </Link>
                     </motion.li>
