@@ -28,7 +28,7 @@ const Services = () => {
                 {/* notsure */}
                 <div className=''></div>
             </section>
-            <section className='bg-gray-100 dark:bg-black dark:text-white'>
+            <section className='bg-gray-100 dark:bg-gray-900 dark:text-white'>
                 <div className='max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 px-5 py-30'>
                     {services.map((service) => (
                         <div
@@ -58,7 +58,7 @@ const Services = () => {
                     ))}
                 </div>
             </section>
-            <section className='dark:bg-black dark:text-white'>
+            <section className='dark:bg-gray-900 dark:text-white'>
                 <div className=' flex flex-col justify-center items-center py-20  gap-5'>
                     <h1 className='font-extrabold text-4xl'>Our process</h1>
                     <p className='text-gray-400  '>A structured approach that delivers predictable high-quality results ever time</p>

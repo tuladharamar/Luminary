@@ -10,7 +10,7 @@ const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
     <header>
-      <nav className="p-5 border-b-2 border-gray-300 dark:bg-black transition-all duration-300">
+      <nav className="p-5 border-b-2 border-gray-300 dark:bg-gray-900 transition-all duration-300">
         <div className="flex items-center justify-between max-w-7xl mx-auto  ">
           {/* logo */}
           <div className="flex gap-1 items-center">

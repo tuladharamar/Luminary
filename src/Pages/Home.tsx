@@ -41,7 +41,7 @@ const Home = () => {
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.5 }}>
             {/* Hero Section */}
-            <section className="bg-[#001B3A] dark:bg-black h-[calc(100vh-90px)] py-16 md:py-24 relative overflow-hidden">
+            <section className="bg-[#001B3A]  h-[calc(100vh-90px)] py-16 md:py-24 relative overflow-hidden">
                 {/* Badge */}
                 <div className="absolute top-8 left-1/2 -translate-x-1/2 md:left-1/4 md:translate-x-0 z-10">
                     <span className="inline-flex items-center gap-3 bg-linear-to-r from-[#001B3A] to-[#00316E] w-2xs md:w-80 px-5 py-2.5 rounded-2xl border border-blue-500/40 text-blue-100 font-semibold shadow-lg shadow-blue-900/30 text-sm md:text-base ">
@@ -81,7 +81,7 @@ const Home = () => {
             </section>
 
             {/* Stats Section */}
-            <section className=" mx-auto px-6 py-16 md:py-20 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8 dark:bg-black dark:text-white">
+            <section className=" mx-auto px-6 py-16 md:py-20 grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-8 dark:bg-gray-900 dark:text-white">
                 <div className="flex flex-col items-center text-center max-w-7xl">
                     <Counter target={350} suffix="+" />
                     <p className="text-gray-500 pt-3">Projects Delivered</p>
@@ -104,7 +104,7 @@ const Home = () => {
             </section>
 
             {/* Why Choose Us */}
-            <section className="bg-gray-100 py-16 md:py-20 dark:bg-black dark:text-white">
+            <section className="bg-gray-100 py-16 md:py-20 dark:bg-gray-900 dark:text-white">
                 <div className="max-w-7xl mx-auto px-6 text-center">
                     <h1 className="text-4xl md:text-5xl font-extrabold">
                         Why teams choose Luminary
@@ -116,7 +116,7 @@ const Home = () => {
             </section>
 
             {/* Features Grid */}
-            <section className=" px-6 py-16 md:py-20  dark:bg-black">
+            <section className=" px-6 py-16 md:py-20  dark:bg-gray-900">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
                 <div className="bg-gray-100 px-8 py-10 rounded-3xl ">
                     <span className="text-blue-500 mb-6 block"><BsGraphUpArrow size={42} /></span>
@@ -139,7 +139,7 @@ const Home = () => {
             </section>
 
             {/* Testimonials */}
-            <section className="bg-gray-100 py-16 md:py-24 dark:bg-black dark:text-white">
+            <section className="bg-gray-100 py-16 md:py-24 dark:bg-gray-900 dark:text-white">
                 <div className="max-w-7xl mx-auto px-6">
                     <h1 className="text-center text-4xl md:text-5xl font-bold mb-12">
                         What our clients say
@@ -201,7 +201,7 @@ const Home = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="bg-black py-24 md:py-32">
+            <section className="bg-gray-900 py-24 md:py-32">
                 <div className="max-w-4xl mx-auto text-center px-6">
                     <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight">
                         Ready to build something <span className="text-blue-400">remarkable?</span>

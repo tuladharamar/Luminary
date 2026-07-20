@@ -12,9 +12,9 @@ const About = () => {
             exit={{ opacity: 0, y: 30 }}
             transition={{ duration: 0.5 }}
             className="">
-            <section className="bg-[#001B3A] h-100 relative flex items-center py-16 md:py-24 overflow-hidden">
-                <div className="w-full max-w-7xl mx-auto px-5 sm:px-6 md:px-12 lg:px-16">
-                    <div className="text-white max-w-xl md:max-w-2xl">
+            <section className="bg-[#001B3A] h-100 relative flex items-center py-16 md:py-24 overflow-hidden ">
+                <div className="w-full max-w-7xl mx-auto px-5 sm:px-6 md:px-12 lg:px-16 ">
+                    <div className="text-white max-w-xl md:max-w-2xl ">
 
                         {/* ABOUT US */}
                         <h3 className="text-blue-300 font-semibold tracking-widest text-sm md:text-base mb-4">
@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section className=" py-16 md:py-24 dark:bg-black dark:text-white transition-all duration-300">
+            <section className=" py-16 md:py-24 dark:bg-gray-900 dark:text-white transition-all duration-300">
                 <div className="max-w-7xl mx-auto px-5 md:px-8 lg:px-12">
                     <div className="flex flex-col md:flex-row gap-12 md:gap-16 lg:gap-20 items-center relative">
 
@@ -77,7 +77,7 @@ const About = () => {
                 </div>
             </section>
             {/* Values */}
-            <section className=" bg-gray-200 pt-25 dark:bg-black transition-all duration-300 ">
+            <section className=" bg-gray-200 pt-25 dark:bg-gray-900 transition-all duration-300 ">
                 <div className="flex flex-col justify-center items-center">
                     {/* title */}
                     <div className="flex  flex-col justify-center items-center">
@@ -104,7 +104,7 @@ const About = () => {
                 </div>
             </section>
             {/* Team */}
-            <section className="py-20 px-5 dark:bg-black transition-all duration-300 ">
+            <section className="py-20 px-5 dark:bg-gray-900 transition-all duration-300 ">
                 <div className="max-w-7xl mx-auto">
 
                     {/* Heading */}
@@ -226,7 +226,7 @@ const About = () => {
                 </div>
             </section>
             {/* Work */}
-            <section className="bg-blue-600 text-white dark:bg-black transition-all duration-300">
+            <section className="bg-blue-600 text-white dark:bg-gray-900 transition-all duration-300">
                 <div className="max-w-7xl mx-auto flex justify-center items-center flex-col py-30">
                     <div className="flex justify-center items-center flex-col">
                         <h1 className="text-4xl font-extrabold pb-5">Interested in working together?</h1>

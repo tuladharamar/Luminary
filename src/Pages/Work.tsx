@@ -30,7 +30,7 @@ const Work = () => {
                     <p className='md:w-xl'>A selection of client work spanning product design, engineering, branding, and strategy. Each project is a story of collaboration and impact.</p>
                 </div>
             </section>
-            <section className="bg-gray-50 py-16 dark:bg-black">
+            <section className="bg-gray-50 py-16 dark:bg-gray-900">
                 <div className="max-w-7xl mx-auto px-6 lg:px-8">
                     {/* Filter tabs */}
                     <div className="flex flex-wrap gap-2 mb-12">
@@ -84,7 +84,7 @@ const Work = () => {
                 </div>
             </section>
 
-            <section className="bg-white py-24  dark:bg-black">
+            <section className="bg-white py-24  dark:bg-gray-900">
                 <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
                     <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900 mb-4">
                         Want to be our next case study?
